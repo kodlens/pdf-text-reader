@@ -1,4 +1,4 @@
-# PDF TEXT READER OCR 
+# PDF TEXT READER OCR (Windows Environtment Setup Only)
 
 Small project that will read pdf text/including image using tesseract
 
@@ -24,6 +24,22 @@ Add to Windows env
     
     C:\Program Files\Tesseract-OCR
 
-Check if tesseract is installed
+Verify if tesseract is installed
 
     tesseract -v
+
+Download and extract testdata
+
+    https://github.com/tesseract-ocr/tessdata
+
+Copy these files
+    
+    eng.traineddata
+    osd.traineddata
+
+And paste it here
+
+    C:\Program Files\Tesseract-OCR\tessdata
+
+
+

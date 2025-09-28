@@ -4,7 +4,7 @@ import pytesseract
 from pdf2image import convert_from_path
 
 # Convert PDF to images
-pages = convert_from_path("sample1.pdf", dpi=300)
+pages = convert_from_path("./pdf/sample1.pdf", dpi=300)
 
 text_output = []
 for page in pages:

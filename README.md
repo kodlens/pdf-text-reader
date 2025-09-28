@@ -16,10 +16,10 @@ Download installer here (official Windows build, UB Mannheim is recommended):
 
     https://github.com/UB-Mannheim/tesseract/wiki
 
-    Add to Windows env
+Add to Windows env
     
     C:\Program Files\Tesseract-OCR
 
-    Check if tesseract is installed
+Check if tesseract is installed
 
     tesseract -v

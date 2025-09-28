@@ -1,3 +1,7 @@
+# PDF TEXT READER OCR 
+
+Small project that will read pdf text/including image using tesseract
+
 ## Tesseract OCR (open-source, widely used)
 
     Pros: Free, good support for many languages, easy to integrate.

@@ -12,7 +12,8 @@
 
 ## Install Tesseract On Windows
 
-    Download installer here (official Windows build, UB Mannheim is recommended):
+Download installer here (official Windows build, UB Mannheim is recommended):
+
     https://github.com/UB-Mannheim/tesseract/wiki
 
     Add to Windows env

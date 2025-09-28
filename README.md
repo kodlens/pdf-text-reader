@@ -43,3 +43,10 @@ And paste it here
 
 
 
+## Download Poppler for Windows
+
+Go to the official builds:
+    
+    Poppler Windows builds (oschwartz10612) -> https://github.com/oschwartz10612/poppler-windows/releases/
+
+    Download the latest poppler-xx.x.0.zip (e.g. poppler-24.08.0.zip).

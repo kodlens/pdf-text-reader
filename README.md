@@ -2,6 +2,11 @@
 
 Small project that will read pdf text/including image using tesseract
 
+## Install Dependencies
+
+    pip install pytesseract pdf2image pillow
+
+
 ## Tesseract OCR (open-source, widely used)
 
     Pros: Free, good support for many languages, easy to integrate.
@@ -49,3 +54,12 @@ Go to the official builds:
 <a href="https://github.com/oschwartz10612/poppler-windows/releases/">Poppler Windows builds (oschwartz10612)</a>
     
     Download the latest poppler-xx.x.0.zip (e.g. poppler-24.08.0.zip).
+
+After installing the poppler-windows, add this to env
+
+    C:\poppler-24.08.0\Library\bin
+
+Verify the installation
+
+    pdfinfo -v
+

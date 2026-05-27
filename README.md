@@ -5,6 +5,7 @@ Small project that will read pdf text/including image using tesseract
 ## Install Dependencies
 
     pip install pytesseract pdf2image pillow
+    pip install fastapi uvicorn pytesseract pdf2image pillow python-multipart (with api)
 
 
 ## Tesseract OCR (open-source, widely used)
@@ -63,3 +64,13 @@ Verify the installation
 
     pdfinfo -v
 
+
+## MAKING API
+
+Install fastApi
+
+    pip install fastapi uvicorn pytesseract pdf2image pillow
+
+Run command
+
+    uvicorn main:app --reload
